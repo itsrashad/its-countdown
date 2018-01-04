@@ -216,4 +216,4 @@ Check the spelling of "fx_preset" attribute (if you includeded it in attributes 
 * First release
 
 == Upgrade Notice ==
-Please upgrade to at least 0.9.5 in order to be able to use event import plugins (upgrade to the latest version is always recommended)
+ * Please upgrade to at least 0.9.5 in order to be able to use event import plugins (upgrade to the latest version is always recommended)
