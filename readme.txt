@@ -1,4 +1,4 @@
-# === its Countdown ===
+=== its Countdown ===
 
 Contributors: itsRashad 
 Tags: countdown, counter, count down, timer, event, widget, years, months, FX, animated, responsive, recurring, rtl
@@ -10,36 +10,38 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 its Countdown displays a responsive animated countdown. Supports years and months display and recurring events
 
-# == Description ==
+== Description ==
 Display and configure multiple its Countdown animated timers using a shortcode or sidebar widget.
 
-# == Features ==
- * years and months (along with “traditional” weeks, days, hours, minutes and seconds) can be displayed in the countdown interval.
- * counter digits changes are animated and site administrator can easily switch between available [animation profiles][2], included with the plugin or added later.
- * event [import plugins][3] support, no need to manually edit widget settings or shortcode for recurring or calendar events. 
+== Features ==
 
-# == Other Features ==
+* years and months (along with “traditional” weeks, days, hours, minutes and seconds) can be displayed in the countdown interval.
+* counter digits changes are animated and site administrator can easily switch between available [animation profiles][2], included with the plugin or added later.
+* event [import plugins][3] support, no need to manually edit widget settings or shortcode for recurring or calendar events. 
+
+== Other Features ==
+
  * its Countdown can show both countdown and count up counters, and it will switch to the “count up” mode automatically when the event time arrives. Event description can be configured individually for countdown and count up modes and can containt HTML markup allowed for a post.
 
  * its Countdown supports different layouts. Most popular layouts (sidebar, shortcode, shortcode compact, etc.) are included in the package and can be selected in the widget options or using a shortcode attribute. Custom layout presets can be easily created using existing ones as a starting point. You will find detailed instructions in the documentation.
 
-* RTL languages are natively supported in all counter layouts.
+ * RTL languages are natively supported in all counter layouts.
 
-* its Countdown widget is responsive. Open "Responsive" page on different handheld devices or just change your browser window width if you are on a desktop to see the feature in action.
+ * its Countdown widget is responsive. Open "Responsive" page on different handheld devices or just change your browser window width if you are on a desktop to see the feature in action.
 
-* More than one countdown can be displayed on the same page, each instance with its individual settings and configuration.
+ * More than one countdown can be displayed on the same page, each instance with its individual settings and configuration.
 
-* Events import plugins are supported.
+ * Events import plugins are supported.
 
-* [Project home page][1]
+ * [Project home page][1]
 
-# == Coming soon ==
+== Coming soon ==
 * More event import plugins for popular event management plugins and services.
 
-# == Installation ==
+== Installation ==
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
-# == Frequently Asked Questions ==
+== Frequently Asked Questions ==
 
 = How does one use the shortcode, exactly? =
  - complete list of shortcode attributes has been provided to answer this exact question.
@@ -57,14 +59,14 @@ Please, check "Counter display mode" setting in the widget options. If "Auto - b
 
 Check the spelling of "fx_preset" attribute (if you includeded it in attributes list). Try the standard fx_preset="Sliding_text_fade.xml". Also check "mode" attribute. Set in to "auto".
 
-# == Screenshots ==
+== Screenshots ==
 
 1. Widget settings
 2. Widget in sidebar (custom animation)
 3. HTML Countdown in front end
 4. "Time has arrived!" message
 
-# == Changelog ==
+== Changelog ==
 
 = 1.5.2 =
 * Added RTL support.

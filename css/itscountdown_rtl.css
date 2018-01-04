@@ -1,0 +1,53 @@
+/*
+
+Overload some styles for RTL (see itscountdown.css for common styles)
+
+*/
+
+/* Make sure that digits are not messed up in numbers */
+
+.its-digits {
+
+	direction: ltr;
+
+}
+
+/* "Titles inline" layout fix */
+
+.its-title-row {
+
+	float: right;
+
+}
+
+.its-counter-row {
+
+	float: right;
+
+}
+
+/* Time units order fix */
+
+.its-unit-horz {
+
+	float: right;
+
+}
+
+/* Labels position fix */
+
+.its-digits-row {
+
+	float: right;           /* digits are always LTR, so we always right-adjust them */
+
+}
+
+.its-label-row {
+
+	float: right;
+
+	/*text-align: left;*/   /* table-like view */
+
+	text-align: right;      /* more natural view */
+
+}

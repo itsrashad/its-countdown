@@ -1,0 +1,200 @@
+.widget_itscountdown {
+
+	font-size: 12px; /* Important: has to be equal to ITS_BASE_FONT_SIZE */
+
+}
+
+.widget_itscountdown .textwidget {
+
+	font-size: inherit;
+
+}
+
+.its-all-wrapper {
+
+	width: 100%;
+	margin: 0 auto;
+	font-size: inherit;
+
+}
+
+/* some themes define line-height for elements, have to reset it for countdown */
+
+.its-title-col, .its-title-row, .its-digits {
+
+	line-height: 1.2em;
+
+}
+
+.its-title-col {
+
+	clear: both;
+
+	margin: 0.5em 0;
+
+}
+
+.its-title-row {
+
+	float: left;
+
+	margin: 0 0.5em;
+
+}
+
+.its-counter-col {
+
+	display: inline-flex;
+}
+
+.its-counter-row {
+
+	float: left;
+
+	margin: 0 0.5em;
+
+}
+
+.its-unit-vert {
+
+	clear: both;
+
+	margin: 0.5em 0;
+
+}
+
+.its-unit-horz {
+
+	float: left;
+
+	margin: 0 0.5em;
+
+}
+
+.its-digits-col {
+
+	clear: both;
+
+	text-align: center;
+
+}
+
+.its-digits-row {
+
+	float: left;
+
+	text-align: right;
+
+}
+
+.its-label-col {
+
+	clear: both;
+
+	text-align: center;
+
+	margin: 0.1em 0; /* place labels closer - workaround */
+
+}
+
+.its-label-row {
+
+	float: left;
+
+	text-align: left;
+
+	margin: 0 0.5em;
+
+}
+
+.its-digit {
+
+	display: inline-block;
+
+	position: relative;
+
+	/*overflow: hidden;*/
+
+}
+
+.its-digit div, .its-digit img {
+
+	position: absolute;
+
+	display: block;
+
+}
+
+.its-digit img {
+
+	margin: 0!important;
+
+	padding: 0!important;
+
+	display: block!important;
+
+}
+
+.its-digit div {
+
+	font-size: inherit;
+
+}
+
+
+
+.spinner {
+
+	/* background url added dynamically in helper script */
+
+	background-size: 16px 16px;
+
+	display: none;
+
+	/* float: right; */
+
+	opacity: .7;
+
+	filter: alpha(opacity=70);
+
+	width: 16px;
+
+	height: 16px;
+
+	margin: 5px 5px 0;
+
+}
+
+.its-title-before, .its-title-after {
+	text-align: center;
+}
+.its-title-after {
+	color: red;
+
+}
+
+.clearfix:after {
+
+	visibility: hidden;
+
+	display: block;
+
+	font-size: 0;
+
+	content: " ";
+
+	clear: both;
+
+	height: 0;
+
+}
+
+.clearfix { display: inline-block; }
+
+/* start commented backslash hack \*/
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+/* close commented backslash hack */
